@@ -32,16 +32,18 @@ const SignUp = () => {
 
                        <img src={logo} alt="" className='mt-4 w-[250px] cursor-pointer'/>
                         <div className='w-[500px] flex flex-col items-center gap-6 bg-[rgba(255,255,255,.07)] p-10 rounded-[25px] shadow-2xl border border-gray-600'>
+                          <form >
                              <h1 className='text-white text-[40px] font-medium text-center'>SIGN UP</h1>
-                            <input type="text" placeholder='Company Name' className='outline-none border border-white text-white w-full px-4 rounded-lg bg-transparent py-[10px]' />
-                            <input type="email" placeholder='E-Mail Address' className='outline-none border border-white text-white w-full px-4 rounded-lg bg-transparent py-[10px]' />
-                            <input type="password" placeholder='Password' className='outline-none border border-white text-white w-full px-4 rounded-lg bg-transparent py-[10px]' />
-                            <input type="password" placeholder='Congfirm Password' className='outline-none border border-white text-white w-full px-4 rounded-lg bg-transparent py-[10px]' />                            
+                            <input type="text" placeholder='Company Name'required className='outline-none border border-white text-white w-full px-4 rounded-lg bg-transparent py-[10px]' />
+                            <input type="email" placeholder='E-Mail Address' required className='outline-none border border-white text-white w-full px-4 rounded-lg bg-transparent py-[10px]' />
+                            <input type="password" placeholder='Password' required className='outline-none border border-white text-white w-full px-4 rounded-lg bg-transparent py-[10px]' />
+                            <input type="password" placeholder='Congfirm Password' required className='outline-none border border-white text-white w-full px-4 rounded-lg bg-transparent py-[10px]' />                            
 
                             <NavLink to={"/login"} ><div className='flex items-center justify-center w-full pt-2 '>
                             <button className=' hover:shadow-none transition-all durantion-300 shadow-2xl  text-white text-[30px] font-medium w-full h-[50px] border border-[rgba(255, 255, 255, 1)] rounded-md bg-gradient-to-t  from-[#5A639C] to-[#9B86BD]'>Sign Up</button>
                              </div>
                              </NavLink>
+                             </form>
                         </div>
                     </div>
       </div>

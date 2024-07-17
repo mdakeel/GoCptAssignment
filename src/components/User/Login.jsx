@@ -35,8 +35,8 @@ const Login = () => {
                         <div className='w-[500px] flex flex-col  gap-6 bg-[rgba(255,255,255,.07)] p-10 rounded-[25px] shadow-2xl border border-gray-600'>
                              <h1 className='text-white text-[40px] font-medium text-center'>Log In</h1>
                             
-                            <input type="email" placeholder='E-Mail Address' className='outline-none border border-white text-white w-full px-4 rounded-lg bg-transparent py-[10px]' />
-                            <input type="password" placeholder='Password' className='outline-none border border-white text-white w-full px-4 rounded-lg bg-transparent py-[10px]' />
+                            <input type="email" placeholder='E-Mail Address' required  className='outline-none border border-white text-white w-full px-4 rounded-lg bg-transparent py-[10px]' />
+                            <input type="password" placeholder='Password' required className='outline-none border border-white text-white w-full px-4 rounded-lg bg-transparent py-[10px]' />
 
                             <NavLink to={"/changepassword"} ><p className='text-[16px] text-white  font-medium'>Forgot Password?</p></NavLink>
                            
