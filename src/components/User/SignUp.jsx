@@ -38,9 +38,10 @@ const SignUp = () => {
                             <input type="password" placeholder='Password' className='outline-none border border-white text-white w-full px-4 rounded-lg bg-transparent py-[10px]' />
                             <input type="password" placeholder='Congfirm Password' className='outline-none border border-white text-white w-full px-4 rounded-lg bg-transparent py-[10px]' />                            
 
-                            <div className='flex items-center justify-center w-full pt-2 '>
+                            <NavLink to={"/login"} ><div className='flex items-center justify-center w-full pt-2 '>
                             <button className=' hover:shadow-none transition-all durantion-300 shadow-2xl  text-white text-[30px] font-medium w-full h-[50px] border border-[rgba(255, 255, 255, 1)] rounded-md bg-gradient-to-t  from-[#5A639C] to-[#9B86BD]'>Sign Up</button>
                              </div>
+                             </NavLink>
                         </div>
                     </div>
       </div>

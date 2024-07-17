@@ -40,9 +40,10 @@ const Login = () => {
 
                             <NavLink to={"/changepassword"} ><p className='text-[16px] text-white  font-medium'>Forgot Password?</p></NavLink>
                            
-                            <div className='flex items-center justify-center w-full pt-2 '>
-                            <button className=' hover:shadow-none transition-all durantion-300 shadow-2xl  text-white text-[30px] font-medium w-full h-[50px] border border-[rgba(255, 255, 255, 1)] rounded-md bg-gradient-to-t  from-[#5A639C] to-[#9B86BD]'>Log In</button>
+                            <NavLink to={"/"} ><div className='flex items-center justify-center w-full pt-2 '>
+                             <button className=' hover:shadow-none transition-all durantion-300 shadow-2xl  text-white text-[30px] font-medium w-full h-[50px] border border-[rgba(255, 255, 255, 1)] rounded-md bg-gradient-to-t  from-[#5A639C] to-[#9B86BD]'>Log In</button>
                              </div>
+                             </NavLink>
                         </div>
                     </div>
       </div>
