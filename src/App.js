@@ -4,7 +4,7 @@ import Contact from './components/Contact/Contact';
 import Contribute from './components/Contribute';
 import Feature from './components/Features/Feature';
 import Footer from './components/Footer/Footer';
-import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Home from './components/Home/Home';
 import WhyGocpt from './components/WhyGocpt';

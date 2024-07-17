@@ -1,6 +1,5 @@
 import React from 'react'
 import beats from '../assets/beats.png'
-import I1 from '../assets/1 1.png'
 import { team } from '../utils/data'
 import { useTheme } from './ThemeToggle'
 

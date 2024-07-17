@@ -1,7 +1,5 @@
 import React from 'react'
 import ellipse from '../../assets/ellipses.png';
-import logo from '../../assets/gocpt logo.png'
-import { NavLink } from 'react-router-dom';
 
 const ForgotPassword = () => {
   return (
